@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#Firstdiv{
+    border: 4px solid rgb(189, 122, 7);
+    width: 312px;
+    height: auto;
+    background-color: rgb(41, 42, 36);
+    padding: 20px;
+    margin: 80px 580px;
+    border-radius: 16px;
+}
+#ones{
+    color: white;
+    font-family: cursive;
+    width: 80px;
+    display: inline-block;
+}
+#twos{
+    border: 2px solid rgb(189, 122, 7) ;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    vertical-align: top;
+    margin:13px 5px 5px 15px;
+    background-color: rgb(68, 55, 34);
+    border-radius: 8px;
+}
+
+#fours{
+    text-align: right;
+    display: block;
+    font-size: 13px;
+    color: white;
+    border-radius: 4px;
+    border-color:rgb(169, 102, 0) ;
+    border-style: outset;
+    margin-top: 5px;
+    padding:2px 3px 0px;
+}
+#zero{
+    color: wheat;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid brown;
+    width: 200px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#firstlabel{
+    margin-top: 10px;
+    text-align: right;
+    width: 305px;
+    height: 40px;
+    border-radius: 6px;
+    background-color:rgb(180, 160, 130) ;
+}
+
+.buttonclass{
+  width: 75px;
+    height: 40px;  
+    background:none;
+    color: orangered;
+    margin-top: 10px ;
+    font-size: 20px;
+}
+.buttonclass2{
+    width: 75px;
+    height: 40px;
+    background:none;
+    color: white;
+    margin-top: 10px ;
+    font-size: 20px;
+}
+
+ :hover #zero{
+    background-color: aqua;
+    color: red;
+}
+
+:hover .buttonclass{
+    color: white;
+    /* background-color:blueviolet ; */
+}
+
+:hover .buttonclass2{
+    color: orangered;
+    /* background-color:blue; */
+} 
+
+
